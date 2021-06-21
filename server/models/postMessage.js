@@ -10,8 +10,8 @@ import mongooose from 'mongoose';
          default : 0
      },
      createdAt: {
-         type: Date(),
-         default: new Date()
+         type: Date,
+         default: new Date
      },
  });
 
